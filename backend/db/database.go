@@ -29,7 +29,7 @@ func getDB() (*mongo.Client, *mongo.Database) {
 	}
 	once.Do(func() {
 		ctx := context.TODO()
-		URI := "mongodb://localhost:27017"
+		URI := "mongodb+srv://draco:kID4AmgOvlLWrJOk@cluster0.n9l2t.mongodb.net/?retryWrites=true&w=majority"
 		client, err := mongo.Connect(ctx, options.Client().ApplyURI(URI))
 		if err != nil {
 			panic(err)
