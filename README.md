@@ -17,3 +17,13 @@ Starts the frontend on port 8765
 python3 -m http.server 8765
 ```
 
+# REPLIT
+frontend:
+```
+https://shopifyfrontend.dracocococo.repl.co/
+```
+backend:
+```
+https://shopify.dracocococo.repl.co/api/inventory
+```
+
