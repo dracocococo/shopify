@@ -24,6 +24,6 @@ https://shopifyfrontend.dracocococo.repl.co/
 ```
 backend:
 ```
-https://shopify.dracocococo.repl.co/api/inventory
+https://shopify.dracocococo.repl.co/api/inventory/
 ```
 
